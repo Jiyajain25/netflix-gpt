@@ -7,3 +7,10 @@ export const API_OPTIONS =  {
   }
 };
 export const  IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
+ export const BG_URL = "IN-en-20250428-TRIFECTA-perspective_e045264e-b4d4-4a6f-b2cc-f95e3344a332_large.jpg";
+
+
+ export const SUPPORTED_LANGUAGES = [
+  {identifier:"en",name:"English"},
+  {identifier:"hindi",name:"Hindi"},
+  {identifier:"spanish",name:"Spanish"}];

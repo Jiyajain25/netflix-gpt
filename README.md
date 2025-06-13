@@ -28,6 +28,10 @@
 - embedded the youtube video and make it autoplay and mute
 - tailwind classes to make main container look awesome.
 - secondary container build
+- GPT Search features
+- Gpt search bar
+- multi language feature in our app
+- integrate GPT APIs(get open AI key)
 
 
 # Features

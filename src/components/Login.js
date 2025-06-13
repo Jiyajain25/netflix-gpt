@@ -7,6 +7,7 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import { updateProfile } from "firebase/auth";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
+import { BG_URL } from "../utils/constants";
 
 
 const Login = () => {
@@ -82,7 +83,7 @@ return (
     <div > 
         <Header/>
         <div className="absolute">
-        <img src ="IN-en-20250428-TRIFECTA-perspective_e045264e-b4d4-4a6f-b2cc-f95e3344a332_large.jpg" alt="bg"/>
+        <img src={BG_URL} alt="bg"/>
     </div>
     <form onSubmit={(e)=>e.preventDefault()}className="w-3/12 absolute p-10 bg-black my-36 mx-auto right-0 left-0 text-white bg-opacity-80">
     <h1 className="font-bold text-3xl py-4">{isSignInForm?"Sign In" : "Sign Up"}</h1>
